@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contact </title>
+    <script src="https://kit.fontawesome.com/e3006312e6.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2&display=swap" rel="stylesheet">
+    <meta name="description" content="Proyecto">
+    <meta name="keywords" content="Proyecto">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="./mobile.css">
+
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <h1 class="logo">
+                    <a href="index.html">LOGO</a>
+                </h1>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="current" href="contact.html">Contact</a></li>
+                    <li><a  href="about.html">About</a></li>
+                </ul>
+            </div>
+        </nav>
+
+
+
+
+    </header>
+
+    <section id="contact-form" class=py-3>
+        <div class="container">
+            <h1 class="l-heading"><span class="primary2">Contactanos</span> Ahora</h1>
+            <p>Por favor diligencia el formulario para contactarnos</p>
+            <form action="process.php">
+                <div class="form-group">
+                    <label for="nombre"> Nombre </label>
+                    <input type="text" name="nombre" id="nombre">
+                </div>
+
+                <div class="form-group">
+                    <label for="email"> Email </label>
+                    <input type="email" name="email" id="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje"> Email </label>
+                    <textarea  name="mensaje" id="mensaje"></textarea>
+                </div>
+                <button class="btn" type="submit"> Enviar </button>
+
+            </form>
+        </div>
+    </section>
+
+    <section id="contact-info" class="dark">
+        <div class="container">
+            <div class="box dark">
+                <i class="far fa-address-book fa-3x"></i>
+                <h3> Detalles1 </h3>
+                <p>Descripción número dos</p>
+            </div>
+            <div class="box dark">
+                <i class="fas fa-archway fa-2x"></i>
+                <h3> Detalles2 </h3>
+                <p>Descripción número dos</p>
+            </div>
+            
+            <div class="box dark">
+                <i class="fab fa-angular fa-3x"></i>
+                <h3> Detalles3 </h3>
+                <p>Descripción número dos</p>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+
+    <footer id="main-footer">
+        <p> Negocio Descripción</p>
+    </footer>
+</body>
+
+</html>
